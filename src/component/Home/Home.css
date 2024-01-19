@@ -1,0 +1,229 @@
+.numbers {
+    background-color: #af3d57;
+    color: #fff;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    overflow: hidden;
+    padding: 25px 0px;
+}
+
+.numbers .row {
+    margin: 10px 0px;
+}
+
+.numbers h2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 10px 0px;
+    letter-spacing: 1px;
+}
+
+.secondsec,
+.ingredients {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin-top: 60px;
+    padding: 25px 0px;
+}
+
+.secondsec img,
+.ingredients img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.secondsec h2,
+.ingredients h2,
+.paralex h2 {
+    font-size: 40px;
+    font-weight: bold;
+    width: 80%;
+    line-height: 50px;
+    margin: 10px 0px;
+    letter-spacing: 1px;
+    color: #af3d57;
+}
+
+.secondsec p,
+.ingredients p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #333;
+    margin-top: 15px;
+}
+
+.secondsec button,
+.ingredients button,
+.blogs button {
+    background-color: #af3d57;
+    border: 1px solid #af3d57;
+    box-sizing: border-box;
+    width: 140px;
+    height: 40px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.secondsec button a,
+.ingredients button a {
+    text-decoration: none !important;
+    display: block;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.secondsec button a:hover,
+.ingredients button a:hover {
+    color: #af3d57;
+}
+
+.secondsec button:hover,
+.ingredients button:hover,
+.blogs button:hover {
+    transition: 0.2 ease-in;
+    background-color: transparent;
+}
+
+.ingredients ul {
+    padding: 0px;
+}
+
+.ingredients li {
+    list-style-type: square;
+    color: #333;
+}
+
+.paralex {
+    background: url('./../../assets/paralex.jpg') center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 30px 0px;
+}
+
+.paralex .row {
+    margin: 50px 0px;
+}
+
+.paralex h2 {
+    width: 100%;
+    margin: 20px 0px;
+}
+
+.paralex p {
+    color: #444;
+    margin: 20px 0px;
+    line-height: 30px;
+}
+
+.paralex a {
+    color: #692d3b;
+    font-size: 20px;
+    margin: 20px 0px;
+    text-decoration: none !important;
+}
+
+/*blogs section styling*/
+.blogs {
+    padding: 20px 0px;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+.blogs .row:first-child {
+    text-align: center;
+    margin: 25px 0px;
+}
+
+.blogs h2 {
+    font-size: 50px;
+    font-weight: bold;
+    width: 100%;
+    line-height: 50px;
+    margin: 10px 0px;
+    letter-spacing: 1px;
+    color: #af3d57;
+}
+
+.blogs p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #333;
+    margin-top: 15px;
+}
+
+.blogs img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.blogs h5 {
+    font-size: 22px;
+    margin: 12px 0px;
+    color: #af3d57
+}
+
+.blogs span {
+    display: block;
+    color: #444;
+    margin: 10px 0px;
+    letter-spacing: 1px;
+}
+
+.blogs h6 {
+    font-size: 22px;
+    color: #af3d57;
+}
+
+.slider {
+    max-width: 100%;
+    width: 100%;
+    background-color: #af3d57;
+    text-align: center;
+    border: 1px solid #af3d57;
+    padding: 25px 0px;
+    margin: 50px 0px;
+}
+
+.slider img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 150px;
+}
+
+.slider .carousel-caption {
+    font-size: 17px;
+    color: #333;
+    line-height: 30px;
+}
+
+.slider .carousel-caption span {
+    color: #af3d57;
+    display: block;
+    margin: 15px 0px;
+}
+
+.slider .carousel {
+    background-color: #fff;
+    margin: 40px 0px;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 25px 0px;
+}
+
+.slider .carousel-indicators button {
+    width: 30px;
+    background-color: #af3d57;
+    height: 15px;
+    border-radius: 5px;
+    border: 1px solid #af3d57;
+}

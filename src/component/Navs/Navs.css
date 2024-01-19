@@ -1,0 +1,32 @@
+nav {
+    background-color: #fff;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 0px;
+}
+
+nav a {
+    color: #af3d57 !important;
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+nav img {
+    max-width: 100%;
+    height: 90%;
+}
+
+nav #lastitem {
+    background-color: #af3d57;
+    color: #fff !important;
+    border: 1px solid #af3d57;
+    box-sizing: border-box;
+}
+
+nav #lastitem:hover {
+    background-color: transparent;
+    color: #af3d57 !important;
+    transition: 0.2s ease-in;
+}
